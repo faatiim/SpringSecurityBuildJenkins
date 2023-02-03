@@ -1,0 +1,43 @@
+.body{
+    background-image: url("/static/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#faire{
+    padding-top: 100px;
+}
+
+#faire1{
+    padding-top: 100px;
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+
+a[name="header"]{
+    font-size : 150%;
+    color:black;
+}
+
+img{
+    min-height:50px;
+    height:50px;
+}
+
+
+
+div.thumbnail{
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+.centered {
+    text-align: center;
+}
+
+.container{
+    color: black !important;
+}
+
