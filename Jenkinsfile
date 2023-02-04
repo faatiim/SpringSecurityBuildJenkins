@@ -1,14 +1,14 @@
 pipeline {
   agent any
     stages {
-      stage('Build') {
+      stage(‘Build’) {
           steps {
-                bat'/Program Files/apache-maven-3.8.6/mvn clean package'
+                bat'C:/Program Files/apache-maven-3.8.6/mvn clean package'
                }
        }
-      stage('Test') {
+      stage(‘Test’) {
          steps {
-              bat'/Program Files/apache-maven-3.8.6/bin/mvn test'
+              bat'C:/Program Files/apache-maven-3.8.6/bin/mvn test'
           }
       }
   }
